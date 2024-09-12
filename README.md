@@ -8,7 +8,7 @@ The application is crafted to handle a variety of contact management tasks seaml
 
 2) Redux Toolkit is utilized for state management, allowing the application to handle complex state logic and interactions with ease. Redux Toolkit simplifies the process of managing state across the application, making it more predictable and easier to debug. This choice supports a clean architecture and efficient data flow, enhancing the overall user experience.
 
--- HTML and CSS are used to structure and style the application’s interface. HTML provides the foundation for the content and layout, while CSS ensures that the application is visually appealing and aligned with modern design principles. Together, these technologies create a polished and professional look, contributing to a pleasant user interface.
+3) HTML and CSS are used to structure and style the application’s interface. HTML provides the foundation for the content and layout, while CSS ensures that the application is visually appealing and aligned with modern design principles. Together, these technologies create a polished and professional look, contributing to a pleasant user interface.
 
 # Backend
 1) .NET Web API On the backend, .NET Web API is employed to manage data processing and business logic. .NET Web API is a powerful framework for building HTTP services, and it provides a flexible and scalable solution for handling API requests. This technology supports the development of robust server-side logic and ensures that the application can handle various types of data operations securely and efficiently.
