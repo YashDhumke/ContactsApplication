@@ -16,4 +16,5 @@ The application is crafted to handle a variety of contact management tasks seaml
 -- SQLite is chosen as the database solution for storing contact information. SQLite is a lightweight, serverless database engine that provides a compact and efficient way to manage data. Its simplicity and ease of integration make it an ideal choice for applications where a full-scale database server is not necessary. SQLite’s performance and reliability contribute to a seamless data management experience within the application.
 
 
-![ContactsProject_MainPage](https://github.com/user-attachments/assets/2bf07106-7225-4e8a-8a31-65653e051720)
+![ContactsProject_MainPage](https://github.com/user-attachments/assets/486788ec-bfb7-41ae-8a02-03699557f3b0)
+
