@@ -14,3 +14,6 @@ The application is crafted to handle a variety of contact management tasks seaml
 -- .NET Web API On the backend, .NET Web API is employed to manage data processing and business logic. .NET Web API is a powerful framework for building HTTP services, and it provides a flexible and scalable solution for handling API requests. This technology supports the development of robust server-side logic and ensures that the application can handle various types of data operations securely and efficiently.
 
 -- SQLite is chosen as the database solution for storing contact information. SQLite is a lightweight, serverless database engine that provides a compact and efficient way to manage data. Its simplicity and ease of integration make it an ideal choice for applications where a full-scale database server is not necessary. SQLite’s performance and reliability contribute to a seamless data management experience within the application.
+
+
+![ContactsProject_MainPage](https://github.com/user-attachments/assets/2bf07106-7225-4e8a-8a31-65653e051720)
