@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd;
+}
+.app{
+  height: 100vh;
+  width: 100%;
+}
+
+.contactscontainer{
+  margin: 2rem;
+  height: 90vh;
+  width: 95%;
+}
+.contactscontainer .loader{
+  margin-top: 30%;
+  margin-left: 50%;
+}
+
+.contactscontainer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+}
+
+.contactcard{ 
+  height: 260px;
+  width: 260px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+.navbar{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; 
+  background-color: #bbdefb;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+.navbar h2{
+  background-color: #bbdefb;
+}
+.contactcard .upperpart{
+  display: flex;
+  gap: 15%;
+}
+
+.searchbar{
+  width: 30%;
+  border: 1px solid #333;
+  margin-top: .8rem;
+}
+
+.contactcard .upperpart .img{
+  height: 80px;
+  width: 90px; 
+}
+.contactcard .upperpart .img img{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.contactcard .upperpart .name{
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.contactcard .middlepart{
+  margin-top: 1rem;
+  font-size: 17px;
+}
+
+.contactcard .middlepart .element{
+  display: flex;
+  gap: .9rem;
+}
+.contactcard .middlepart .element p{
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.contactcard .lowerpart{
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 6%;
+}
+
+.contactcard .lowerpart .save{
+  cursor: pointer;
+}
+
+
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.userform {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+form {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.element {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contactcard .lowerpart .trash{
+  cursor: pointer;
+}
+
+.favourite-heading{
+  text-align: center;
+  margin-top: .9rem;
+}
+
+.error{
+  padding: 10px;
+  color: red;
+}
+
+
+.swal-modal {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid white;
+}
+.swal-footer{
+  background-color: #fff;
+}
+.swal-text{
+  background-color: #fff;
+  font-size: 18px;
+}
+.swal-title{
+  background-color: #fff;
+}
+
+.searching-sorting{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.searching-sorting .sorting{
+  margin-top: 1%;
+  cursor: pointer;
+  display: flex;
+  gap: .1rem;
+}
+
+.searching-sorting .sorting p{
+  padding: 7px;
+}
+.pagination{
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+
+
+
+
+
+/* Pagination container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Pagination buttons */
+.pagination-button {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  color: #333; /* Darker text color */
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Pagination button hover effect */
+.pagination-button:hover {
+  background-color: #ddd; /* Slightly darker gray */
+}
+
+/* Pagination button disabled state */
+.pagination-button:disabled {
+  background-color: #e0e0e0; /* Even lighter gray */
+  color: #aaa; /* Light gray text */
+  cursor: not-allowed;
+}
+
+/* Pagination page buttons */
+.pagination-page-button {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  color: #333; /* Darker text color */
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active page button */
+.pagination-page-button.active {
+  background-color: #007bff; /* Blue background for active page */
+  color: white; /* White text for active page */
+  border-color: #007bff; /* Blue border for active page */
+}
+
+/* Pagination page button hover effect */
+.pagination-page-button:hover {
+  background-color: #ddd; /* Slightly darker gray on hover */
+}
+
+span {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
